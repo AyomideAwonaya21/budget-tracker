@@ -1,0 +1,27 @@
+{
+  "name": "budget-tracker",
+  "version": "1.0.0",
+  "description": "a budget tracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyomideAwonaya21/budget-tracker.git"
+  },
+  "author": "Ayomide Awonaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AyomideAwonaya21/budget-tracker/issues"
+  },
+  "homepage": "https://github.com/AyomideAwonaya21/budget-tracker#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "lite-server": "^2.6.1",
+    "mongoose": "^5.13.4",
+    "morgan": "^1.10.0"
+  }
+}
